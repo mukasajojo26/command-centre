@@ -7,6 +7,8 @@ This kit is for a Safety and Security Manager in an Abu Dhabi hotel who has to c
 | File | What it is |
 |---|---|
 | `Arabic-Letter-Templates.docx` | 15 letter templates. Each has an English approval copy and an Arabic version to send, plus a risk tier, a review rule and usage notes. |
+| `Meeting-Toolkit.docx` | How to run an authority meeting without an interpreter: a bilingual pre-meeting brief (blank and a worked example), a bilingual agenda, a phrase card with pronunciation, etiquette notes, 21 likely questions with Arabic answers, and bilingual minutes with an action log. |
+| `Arabic-Language-System-SOP.docx` | The operating procedure that ties it all together: roles, risk tiers, incoming and outgoing workflows, AI data rules, 7 copy-and-paste prompts, a number and date checking guide (Eastern Arabic digits, Hijri dates), the Language Assistant role description, and a 4-week Arabic reading plan. |
 | `Correspondence-Tracker-and-Glossary.xlsx` | Correspondence tracker with automatic overdue and due-soon alerts, a dashboard, a glossary of 115 terms (English, Arabic, transliteration), a template index, and UAE emergency numbers with phone phrases. |
 
 ## Before first use
