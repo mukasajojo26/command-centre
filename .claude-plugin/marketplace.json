@@ -1,0 +1,38 @@
+{
+  "name": "command-centre",
+  "owner": { "name": "mukasajojo26" },
+  "metadata": {
+    "description": "16 original skills modelled on popular community Claude skills, rebuilt and reviewed for a security and safety professional.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cc-dev",
+      "source": "./skills-pack/plugins/cc-dev",
+      "description": "Engineering: frontend design, coding conventions, dev discipline (TDD, debugging), role-based eng workflows, second-opinion review, skill factory.",
+      "version": "1.0.0",
+      "category": "development"
+    },
+    {
+      "name": "cc-content",
+      "source": "./skills-pack/plugins/cc-content",
+      "description": "Content: humanizer with lint script, SEO audit script, marketing copy, social media, HTML-to-video renderer.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "cc-knowledge",
+      "source": "./skills-pack/plugins/cc-knowledge",
+      "description": "Knowledge: second brain vault, source-grounded Q&A with citations, terse output mode.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "cc-business",
+      "source": "./skills-pack/plugins/cc-business",
+      "description": "Business: finance analysis with DCF and variance calculators, contract and legal document review.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}
