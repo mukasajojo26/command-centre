@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example composition</title>
+<style>
+  :root { --bg:#0f1115; --text:#f4f1ea; --accent:#ff5a1f; }
+  html,body { margin:0; width:1920px; height:1080px; overflow:hidden; background:var(--bg);
+    color:var(--text); font-family: system-ui, sans-serif; }
+  .stage { position:absolute; inset:0; display:grid; place-content:center; text-align:center; }
+  .kicker { font-size:36px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
+    opacity:0; animation: up .8s ease-out .2s forwards; }
+  h1 { font-size:140px; margin:.2em 0; opacity:0; animation: up 1s ease-out .6s forwards; }
+  .bar { height:12px; width:0; background:var(--accent); margin:0 auto; animation: grow 1.6s ease-in-out 1.4s forwards; }
+  .stat { font-size:64px; opacity:0; animation: up .8s ease-out 2.6s forwards; }
+  @keyframes up { from { opacity:0; transform:translateY(40px) } to { opacity:1; transform:none } }
+  @keyframes grow { to { width:900px } }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="kicker">Monthly safety report</div>
+    <h1>Zero lost-time injuries</h1>
+    <div class="bar"></div>
+    <div class="stat">212 days and counting</div>
+  </div>
+  <script>window.__duration = 4</script>
+</body>
+</html>
